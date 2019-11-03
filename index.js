@@ -3,7 +3,7 @@ const columnify = require("columnify")
 
 //We don't use defaults here to warn the user about defaults being used
 const yargs = require("yargs")
-    .usage("Calculate playable land per turn\nUsage: manacalc -f standard -l 27 -h 3")
+    .usage("Calculate useable lands per turn\nUsage: manacalc -f standard -l 27 -h 3")
     .options({
         "lands": {
             alias: "l",
