@@ -10,6 +10,7 @@
   "author": "LevitatingBusinessMan",
   "license": "ISC",
   "dependencies": {
+    "columnify": "^1.5.4",
     "yargs": "^14.0.0"
   }
 }
